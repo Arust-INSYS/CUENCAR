@@ -1,4 +1,4 @@
-package com.john.quiroga.cuencar;
+package com.rentcar.cuencar;
 
 import androidx.appcompat.app.AppCompatActivity;
 

@@ -1,3 +1,36 @@
 <resources>
     <string name="app_name">cuencar</string>
+<<<<<<< HEAD
+    <string name="row3Surname" />
+    <string name="row3Age" />
+    <string name="row3Name" />
+    <string name="row2Surname" />
+    <string name="row2Name" />
+    <string name="row2Age" />
+    <string name="row1Surname" />
+    <string name="row1Age" />
+    <string name="row1Name" />
+    <string name="col3" />
+    <string name="col2" />
+    <string name="col1" />
+=======
+    <string name="Perfil">Mi Perfil</string>
+    <string name="Reservas">Mis Reservas</string>
+    <string name="Alquiler">Alquilar Vehiculo</string>
+    <string name="Contactos">Contáctanos</string>
+    <string name="bienvenido">Bienvenido a CuenCar</string>
+    <string name="Ubicacion">Ubicación</string>
+    <string name="FechayHora">Fecha/Hora de Renta</string>
+    <string name="FechayHora2">Fecha/Hora de Retorno</string>
+    <string name="Mayor18">Tengo mas de 18 años</string>
+    <string name="Buscar">Buscar --></string>
+    <string name="Emblema">ENCUENTRA EL MEJOR VEHICULO JUNTO A NOSOTROS</string>
+    <string name="title_activity_seleccion_ubicacion">SeleccionUbicacion</string>
+    <string name="title_activity_ubicacion_gogle_maps">Ubicacion_GogleMaps</string>
+    <string name="NombreApp">CuenCar</string>
+    <string name="Info">CuenCar es una aplicación de prueba que esta siendo diseñada por estudiantes del ISTA para la materia de Programación de Aplicaciónes Móviles</string>
+    <string name="Proposito">Nuestro proprósito es implementar una aplicación movil para el alquiler de vehiculos en la ciudad de Cuenca-Ecuador con el fin de ayudar a extranjeros y locales a escoger un carro segun el tipo de actividad que vayan a realizar.</string>
+    <string name="TituloProposito">Propósitos</string>
+    <string name="TituloQSomos">¿Quiénes Somos?</string>
+>>>>>>> bdfe6e62901a8079183e73babe4014126f5d64a3
 </resources>
