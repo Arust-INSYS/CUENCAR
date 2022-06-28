@@ -8,16 +8,16 @@
 
     <EditText
         android:id="@+id/txtnumero5"
-        android:layout_width="293dp"
-        android:layout_height="58dp"
-        android:layout_marginBottom="20dp"
+        android:layout_width="280dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="16dp"
         android:backgroundTint="#DF0909"
         android:ems="10"
         android:inputType="number"
         android:text="TELEFONO"
         app:layout_constraintBottom_toTopOf="@+id/txtcorreoEDI"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent" />
 
     <Button
@@ -25,8 +25,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="32dp"
-        android:layout_marginEnd="64dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="44dp"
         android:text="CANCELAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -38,7 +38,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="88dp"
-        android:layout_marginBottom="112dp"
+        android:layout_marginBottom="44dp"
         android:text="GUARDAR"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/btncance"
@@ -51,56 +51,56 @@
         android:id="@+id/txtnombreEDI"
         android:layout_width="288dp"
         android:layout_height="44dp"
-        android:layout_marginBottom="32dp"
+        android:layout_marginBottom="12dp"
         android:text="NOMBRE"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtapellidoEDI"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintHorizontal_bias="0.528"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txtdireccionEDI"
         android:layout_width="285dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="100dp"
         android:text="DIRRECCION"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/btn_GUARDA"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_GUARDA"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.468"
+        app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/txtapellidoEDI"
         android:layout_width="288dp"
         android:layout_height="44dp"
-        android:layout_marginTop="420dp"
+        android:layout_marginBottom="12dp"
         android:text="APELLIDO"
         android:textSize="20sp"
         app:layout_constraintBottom_toTopOf="@+id/txtnumero5"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.479"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
         android:id="@+id/txtcorreoEDI"
         android:layout_width="289dp"
         android:layout_height="50dp"
-        android:layout_marginBottom="28dp"
+        android:layout_marginBottom="12dp"
         android:ems="10"
         android:inputType="textEmailAddress"
         android:text="CORREO"
         app:layout_constraintBottom_toTopOf="@+id/txtdireccionEDI"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.54"
         app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="170dp"
         android:layout_height="210dp"
-        android:layout_marginBottom="44dp"
+        android:layout_marginBottom="40dp"
         app:layout_constraintBottom_toTopOf="@+id/txtnombreEDI"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -119,6 +119,6 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
