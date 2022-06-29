@@ -2,7 +2,10 @@ package com.rentcar.cuencar;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -10,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-<<<<<<< Updated upstream
         asignacion();
         asignacion_pantalla_historial();
     }
@@ -25,9 +27,6 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(inten);
             }
         });
-=======
-        //Prueba123456789fghjk
->>>>>>> Stashed changes
     }
     private void asignacion_pantalla_historial(){
         Button his;
