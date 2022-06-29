@@ -14,6 +14,12 @@
         android:theme="@style/Theme.Cuencar"
         tools:targetApi="31">
         <activity
+            android:name=".reservas_pendientes"
+            android:exported="false" />
+        <activity
+            android:name=".mis__reservas"
+            android:exported="false" />
+        <activity
             android:name=".AceptarTerminos"
             android:exported="false" />
         <activity

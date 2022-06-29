@@ -23,4 +23,21 @@
     <string name="Registrar">Sign in</string>
     <string name="Ingrsar">Login</string>
     <string name="ConGoogle">Sign in with google</string>
+    <string name="col4" />
+    <string name="col21" />
+    <string name="col5" />
+    <string name="row11N1ame" />
+    <string name="row1Age" />
+    <string name="row1Surname" />
+    <string name="row122Surname" />
+    <string name="row1Name" />
+    <string name="row2Name" />
+    <string name="row2Age" />
+    <string name="row2Surname" />
+    <string name="row3Name" />
+    <string name="row3Age" />
+    <string name="row3Surname" />
+    <string name="col1" />
+    <string name="col2" />
+    <string name="col3" />
 </resources>
