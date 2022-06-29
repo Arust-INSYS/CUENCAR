@@ -40,4 +40,11 @@
     <string name="col1" />
     <string name="col2" />
     <string name="col3" />
+    <string name="TextoRegistro">Ingrese los siguietes datos</string>
+    <string name="Nombre">Nombre</string>
+    <string name="Apellido">Apellido</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Direccion">Direccion</string>
+    <string name="Confirmar">Confirmar</string>
+    <string name="Cancelar">Cancelar</string>
 </resources>
