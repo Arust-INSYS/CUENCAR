@@ -12,7 +12,6 @@ public class MenuPrincipal extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-<<<<<<< Updated upstream
         setContentView(R.layout.activity_main);
         asignacion_Apantall_perfil();
         asignacion_Apantall_reserva();
@@ -38,8 +37,5 @@ public class MenuPrincipal extends AppCompatActivity {
                 startActivity(inten);
             }
         });
-=======
-        setContentView(R.layout.activity_perifill_act);
->>>>>>> Stashed changes
-    }
+    }//brrooooooooooooooooooooooooooooooooooo
 }
