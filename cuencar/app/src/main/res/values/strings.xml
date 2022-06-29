@@ -18,4 +18,21 @@
     <string name="Proposito">Nuestro proprósito es implementar una aplicación movil para el alquiler de vehiculos en la ciudad de Cuenca-Ecuador con el fin de ayudar a extranjeros y locales a escoger un carro segun el tipo de actividad que vayan a realizar.</string>
     <string name="TituloProposito">Propósitos</string>
     <string name="TituloQSomos">¿Quiénes Somos?</string>
+    <string name="col4" />
+    <string name="col21" />
+    <string name="col5" />
+    <string name="row11N1ame" />
+    <string name="row1Age" />
+    <string name="row1Surname" />
+    <string name="row122Surname" />
+    <string name="row1Name" />
+    <string name="row2Name" />
+    <string name="row2Age" />
+    <string name="row2Surname" />
+    <string name="row3Name" />
+    <string name="row3Age" />
+    <string name="row3Surname" />
+    <string name="col1" />
+    <string name="col2" />
+    <string name="col3" />
 </resources>
