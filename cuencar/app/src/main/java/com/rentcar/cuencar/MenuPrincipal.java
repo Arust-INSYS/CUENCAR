@@ -13,9 +13,16 @@ public class MenuPrincipal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        IniciaMenu();
+    }
+
+    //METODO PARA INICIAR MENU PRINCIPAL
+    private void IniciaMenu(){
         asignacion_Apantall_perfil();
         asignacion_Apantall_reserva();
     }
+
+    //METODO PARA ENTRAR A MI PERFIL
     private void asignacion_Apantall_perfil() {
         Button per;
         per = findViewById(R.id.btnPerfil);
@@ -27,6 +34,8 @@ public class MenuPrincipal extends AppCompatActivity {
             }
         });
     }
+
+    //METODO PARA ENTRAR A MIS RESERVAS
     private void asignacion_Apantall_reserva() {
         Button per;
         per = findViewById(R.id.btnMisReservas);
@@ -37,5 +46,30 @@ public class MenuPrincipal extends AppCompatActivity {
                 startActivity(inten);
             }
         });
-    }//brrooooooooooooooooooooooooooooooooooo
+    }
+
+    //METODO PARA ENTRAR A ALQUILER DE VEHICULOS
+    private void IngresarAlquiler(){
+        Button btnPerfil;
+        btnPerfil=findViewById(R.id.btnAlquilar);
+        btnPerfil.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent3=new Intent(getApplicationContext(),Alquiler_Vehiculo.class);
+                startActivity(intent3);
+            }
+        });
+    }
+
+    private void IngresarContactos(){
+        Button btnContactos;
+        btnContactos=findViewById(R.id.btnContactos);
+        btnContactos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent4=new Intent(getApplicationContext(),Informacion.class);
+                startActivity(intent4);
+            }
+        });
+    }
 }
