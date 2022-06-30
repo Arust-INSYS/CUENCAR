@@ -36,10 +36,10 @@
         android:id="@+id/txtdireccionEDI"
         android:layout_width="285dp"
         android:layout_height="48dp"
-        android:layout_marginBottom="34dp"
+        android:layout_marginBottom="29dp"
         android:text="DIRRECCION"
         android:textSize="20sp"
-        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintBottom_toTopOf="@+id/btnguardar"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.563"
         app:layout_constraintStart_toStartOf="parent" />
@@ -95,26 +95,26 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0" />
 
-    <ImageButton
-        android:id="@+id/imageButton"
-        android:layout_width="77dp"
-        android:layout_height="60dp"
-        android:layout_marginStart="84dp"
-        android:layout_marginBottom="48dp"
-        android:src="@drawable/visto"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/imageButton2"
-        app:layout_constraintHorizontal_bias="0.384"
-        app:layout_constraintStart_toStartOf="parent" />
-
-    <ImageButton
-        android:id="@+id/imageButton2"
+    <Button
+        android:id="@+id/btnguardar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="112dp"
-        android:layout_marginBottom="40dp"
-        android:src="@drawable/x"
+        android:layout_marginStart="68dp"
+        android:layout_marginBottom="72dp"
+        android:text="GUARDAR"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btncancelar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginBottom="72dp"
+        android:text="CACELAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.352"
+        app:layout_constraintStart_toEndOf="@+id/btnguardar" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -3,22 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/Arust/AndroidStudioProjects/app_cuencar/CUENCAR/cuencar/app/src/main/res/layout/activity_catalog.xml" value="0.15854700854700854" />
-        <entry key="..\:/Users/Arust/AndroidStudioProjects/app_cuencar/CUENCAR/cuencar/app/src/main/res/layout/activity_catalogo.xml" value="0.33" />
-        <entry key="..\:/Users/Arust/AndroidStudioProjects/app_cuencar/CUENCAR/cuencar/app/src/main/res/layout/activity_confirmacion_datos.xml" value="0.147008547008547" />
-        <entry key="..\:/Users/Arust/AndroidStudioProjects/app_cuencar/CUENCAR/cuencar/app/src/main/res/layout/activity_informacion_auto.xml" value="0.15854700854700854" />
+        <entry key="..\:/Users/Arust/AndroidStudioProjects/app_cuencar/CUENCAR/cuencar/app/src/main/res/layout/activity_catalogo.xml" value="0.15854700854700854" />
         <entry key="..\:/Users/Arust/AndroidStudioProjects/app_cuencar/CUENCAR/cuencar/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/drawable-v24/bg_color.xml" value="0.121" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_alquiler_vehiculo.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_catalogo.xml" value="0.25" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_conectar_gmail.xml" value="0.25" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_historial_alquiler.xml" value="0.25" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_informacion.xml" value="0.10989583333333333" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_login.xml" value="0.25" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_main.xml" value="0.25" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_pantalla_editar.xml" value="0.25" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/activity_registro.xml" value="0.25" />
-        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuncaCAR2/CUENCAR/cuencar/app/src/main/res/layout/menu_principal.xml" value="0.10989583333333333" />
+        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuenCAR-3/CUENCAR/cuencar/app/src/main/res/layout/activity_alquiler_vehiculo.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuenCAR-3/CUENCAR/cuencar/app/src/main/res/layout/activity_conectar_gmail.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuenCAR-3/CUENCAR/cuencar/app/src/main/res/layout/activity_login.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuenCAR-3/CUENCAR/cuencar/app/src/main/res/layout/activity_maps.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuenCAR-3/CUENCAR/cuencar/app/src/main/res/layout/activity_mis_reservas.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/DAVID/Downloads/Cuarto Ciclo/Aplicaciones moviles/CuenCAR-3/CUENCAR/cuencar/app/src/main/res/layout/menu_principal.xml" value="0.26145833333333335" />
+        <entry key="..\:/Users/DELL/Documents/M4A/CUENCAR/cuencar/app/src/main/res/layout/activity_aceptar_terminos.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/DELL/Documents/M4A/CUENCAR/cuencar/app/src/main/res/layout/activity_catalogo.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/DELL/Documents/M4A/CUENCAR/cuencar/app/src/main/res/layout/activity_conectar_gmail.xml" value="0.33" />
+        <entry key="..\:/Users/DELL/Documents/M4A/CUENCAR/cuencar/app/src/main/res/layout/activity_historial_alquiler.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/DELL/Documents/M4A/CUENCAR/cuencar/app/src/main/res/layout/activity_informacion.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/DELL/Documents/M4A/CUENCAR/cuencar/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/DELL/Documents/M4A/CUENCAR/cuencar/app/src/main/res/layout/activity_mis_reservas.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/DELL/Documents/M4A/CUENCAR/cuencar/app/src/main/res/layout/activity_registro.xml" value="0.25" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documentos/android studio/tarea/cuencar/app/src/main/res/layout/activity_main.xml" value="0.203125" />
         <entry key="..\:/Users/LENOVO/OneDrive/Documentos/android studio/tarea/cuencar/app/src/main/res/layout/activity_pantalla_editar.xml" value="0.25" />
       </map>
