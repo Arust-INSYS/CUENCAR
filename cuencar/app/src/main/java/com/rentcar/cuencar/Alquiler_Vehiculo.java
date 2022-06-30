@@ -13,7 +13,7 @@ public class Alquiler_Vehiculo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_alquiler_vehiculo);
-        Informacion_Alquiler();
+        IniciaControl();
     }
 
     private void IniciaControl(){
@@ -28,15 +28,6 @@ public class Alquiler_Vehiculo extends AppCompatActivity {
         });
 
     }
-    private void Informacion_Alquiler(){
-        Button botonBuscar;
-        botonBuscar=findViewById(R.id.btnBuscar);
-        botonBuscar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent3=new Intent(getApplicationContext(),Informacion.class);
-                startActivity(intent3);
-            }
-        });
-    }
+
+
 }

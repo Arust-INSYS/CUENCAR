@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.rentcar.cuencar">
+    package="com.rentcar.cuencar" >
 
     <application
         android:allowBackup="true"
@@ -12,7 +12,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Cuencar"
-        tools:targetApi="31">
+        tools:targetApi="31" >
         <activity
             android:name=".alquiler"
             android:exported="false" />
@@ -40,7 +40,7 @@
         <activity
             android:name=".MapsActivity"
             android:exported="false"
-            android:label="@string/title_activity_maps" />
+            />
         <activity
             android:name=".MenuPrincipal"
             android:exported="false" />
@@ -61,7 +61,19 @@
             android:exported="false" />
         <activity
             android:name=".Login"
-            android:exported="true">
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- CODIGO DAVID -->
+        <activity
+            android:name=".Alquiler_Vehiculo"
+            android:exported="false" /> <!-- CODIGO ARIEL -->
+        <activity
+            android:name=".catalogo"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -69,7 +81,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".catalogo"
+            android:name=".Informacion_auto"
             android:exported="false" />
     </application>
 
