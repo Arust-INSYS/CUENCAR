@@ -34,10 +34,11 @@
                 android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;" />
 
             <Button
-                android:id="@+id/button2"
+                android:id="@+id/boton_auto1"
                 android:layout_width="82dp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button"
+                tools:ignore="DuplicateSpeakableTextCheck" />
         </TableRow>
 
         <TableRow
@@ -57,10 +58,10 @@
                 android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;" />
 
             <Button
-                android:id="@+id/button4"
+                android:id="@+id/boton_auto2"
                 android:layout_width="82dp"
                 android:layout_height="wrap_content"
-                android:text="Button" />
+                android:text="@string/button1" />
         </TableRow>
 
         <TableRow
@@ -79,11 +80,6 @@
                 android:layout_height="wrap_content"
                 android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;" />
 
-            <Button
-                android:id="@+id/button5"
-                android:layout_width="82dp"
-                android:layout_height="wrap_content"
-                android:text="Button" />
         </TableRow>
 
         <TableRow
@@ -102,11 +98,6 @@
                 android:layout_height="wrap_content"
                 android:text="Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit...&quot;" />
 
-            <Button
-                android:id="@+id/button6"
-                android:layout_width="82dp"
-                android:layout_height="wrap_content"
-                android:text="Button" />
         </TableRow>
     </TableLayout>
 

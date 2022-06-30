@@ -16,6 +16,9 @@ public class MenuPrincipal extends AppCompatActivity {
         //IniciaMenu();
         asignacion_Apantall_perfil();
         asignacion_Apantall_reserva();
+        //Alquiler
+        IngresarAlquiler();
+
     }
 
 
@@ -58,6 +61,7 @@ public class MenuPrincipal extends AppCompatActivity {
             }
         });
     }
+
 
     private void IngresarContactos(){
         Button btnContactos;
