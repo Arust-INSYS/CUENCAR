@@ -77,9 +77,6 @@
         <activity
             android:name=".catalogo"
             android:exported="false" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="false"></activity>
     </application>
 
 </manifest>

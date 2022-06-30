@@ -13,14 +13,12 @@ public class MenuPrincipal extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_menuprinc);
-        IniciaMenu();
-    }
-
-    //METODO PARA INICIAR MENU PRINCIPAL
-    private void IniciaMenu(){
+        //IniciaMenu();
         asignacion_Apantall_perfil();
         asignacion_Apantall_reserva();
     }
+
+
 
     //METODO PARA ENTRAR A MI PERFIL
     private void asignacion_Apantall_perfil() {
@@ -29,7 +27,7 @@ public class MenuPrincipal extends AppCompatActivity {
         per.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inten = new Intent(getApplicationContext(), MainActivity.class);
+                Intent inten = new Intent(getApplicationContext(),perifill_act.class);
                 startActivity(inten);
             }
         });
