@@ -4,11 +4,11 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class HIstorial_alquiler extends AppCompatActivity {
+public class alquiler extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_historial_alquiler);
+        setContentView(R.layout.activity_alquiler);
     }
 }

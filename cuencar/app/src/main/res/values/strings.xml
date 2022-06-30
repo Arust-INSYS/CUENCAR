@@ -48,4 +48,6 @@
     <string name="Confirmar">Confirmar</string>
     <string name="Cancelar">Cancelar</string>
     <string name="title_activity_maps">MapsActivity</string>
+    <string name="EDITAR">EDITAR</string>
+
 </resources>

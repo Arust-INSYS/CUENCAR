@@ -14,7 +14,7 @@ public class mis__reservas extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mis_reservas);
         asignacion_pantalla_pendientes();
-        asignacion_pantalla_reservar();
+    //    asignacion_pantalla_reservar();
     }
     private void asignacion_pantalla_pendientes(){
         Button pen;
@@ -26,16 +26,16 @@ public class mis__reservas extends AppCompatActivity {
                 startActivity(inten);
             }
         });
-    }
-    private void asignacion_pantalla_reservar(){
+
         Button res;
         res=findViewById(R.id.btnagregar);
         res.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inten=new Intent(getApplicationContext(),reservas_pendientes.class);
+                Intent inten=new Intent(getApplicationContext(),Alquiler_Vehiculo.class);
                 startActivity(inten);
             }
         });
+
     }
 }
