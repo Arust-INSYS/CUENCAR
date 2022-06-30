@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Perfil">
+
+    <TextView
+        android:id="@+id/txtapellido2"
+        android:layout_width="288dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="19dp"
+        android:text="APELLIDO"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtcorreo2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.512"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="181dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="41dp"
+        android:autoText="true"
+        android:text="PERFIL"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtnombre2"
+        android:layout_width="288dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="25dp"
+        android:text="NOMBRE"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/txtapellido2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnmihistoria2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="48dp"
+        android:text="Hitorial"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.989"
+        app:layout_constraintStart_toEndOf="@+id/btn_editar2"
+        app:layout_constraintTop_toBottomOf="@+id/txtdireccion2"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btn_editar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="96dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="48dp"
+        android:text="EDITAR"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnmihistoria"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtdireccion2"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <EditText
+        android:id="@+id/txtcorreo2"
+        android:layout_width="289dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#DF0909"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:text="CORREO"
+        app:layout_constraintBottom_toTopOf="@+id/txtnumero2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView10"
+        android:layout_width="95dp"
+        android:layout_height="111dp"
+        android:layout_marginBottom="36dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtnombre2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/kaneki" />
+
+    <TextView
+        android:id="@+id/txtdireccion2"
+        android:layout_width="285dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="136dp"
+        android:text="DIRECCION"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/txtnumero2"
+        android:layout_width="293dp"
+        android:layout_height="58dp"
+        android:layout_marginBottom="27dp"
+        android:backgroundTint="#DF0909"
+        android:ems="10"
+        android:inputType="number"
+        android:text="TELEFONO"
+        app:layout_constraintBottom_toTopOf="@+id/txtdireccion2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.516"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

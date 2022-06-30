@@ -27,7 +27,7 @@ public class MenuPrincipal extends AppCompatActivity {
         per.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent inten = new Intent(getApplicationContext(),perifill_act.class);
+                Intent inten = new Intent(getApplicationContext(),Perfil.class);
                 startActivity(inten);
             }
         });
