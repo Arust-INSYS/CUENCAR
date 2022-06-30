@@ -18,6 +18,7 @@ public class MenuPrincipal extends AppCompatActivity {
         asignacion_Apantall_reserva();
         //Alquiler
         IngresarAlquiler();
+        IngresarContactos();
 
     }
 

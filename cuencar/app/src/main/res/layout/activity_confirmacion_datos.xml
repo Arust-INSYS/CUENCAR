@@ -14,6 +14,7 @@
         android:layout_marginTop="10dp"
         android:layout_marginEnd="10dp"
         android:layout_marginBottom="10dp"
+        android:background="?android:attr/fastScrollTrackDrawable"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -45,12 +46,14 @@
             android:id="@+id/textView25"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:drawable/screen_background_light_transparent"
             android:text="Nombres:" />
 
         <TextView
             android:id="@+id/textView26"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="?android:attr/fastScrollTrackDrawable"
             android:text="Lorem Ipsum" />
 
         <Space
@@ -61,12 +64,14 @@
             android:id="@+id/textView28"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:drawable/screen_background_light_transparent"
             android:text="Apellidos:" />
 
         <TextView
             android:id="@+id/textView27"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="?android:attr/fastScrollTrackDrawable"
             android:text="Lorem Ipsum" />
 
         <Space
@@ -77,18 +82,21 @@
             android:id="@+id/textView29"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@android:drawable/screen_background_light_transparent"
             android:text="Tipo tarjeta:" />
 
         <CheckedTextView
             android:id="@+id/checkedTextView"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="?android:attr/fastScrollTrackDrawable"
             android:text="CheckedTextView" />
 
         <CheckedTextView
             android:id="@+id/checkedTextView2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="?android:attr/fastScrollTrackDrawable"
             android:text="CheckedTextView" />
 
         <Space

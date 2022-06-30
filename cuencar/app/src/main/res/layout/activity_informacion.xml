@@ -35,10 +35,9 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="140dp"
-            android:layout_height="140dp"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/remini20220623192833164" />
+            android:layout_width="match_parent"
+            android:layout_height="132dp"
+            app:srcCompat="@drawable/logo" />
 
         <Space
             android:layout_width="match_parent"

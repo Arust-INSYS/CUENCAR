@@ -67,10 +67,17 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-        </activity> <!-- CODIGO DAVID -->
+        </activity>
+
+        <!-- CODIGO DAVID -->
         <activity
             android:name=".Alquiler_Vehiculo"
-            android:exported="false" /> <!-- CODIGO ARIEL -->
+            android:exported="false" />
+        <activity
+            android:name=".Informacion"
+            android:exported="false" />
+
+        <!-- CODIGO ARIEL -->
         <activity
             android:name=".catalogo"
             android:exported="true" >
@@ -83,6 +90,13 @@
         <activity
             android:name=".Informacion_auto"
             android:exported="false" />
+        <activity
+            android:name=".confirmacion_datos"
+            android:exported="false" />
+        <activity
+            android:name=".transaccion"
+            android:exported="false" />
+
     </application>
 
 </manifest>
